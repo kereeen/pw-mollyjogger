@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../filta/pw-mollyjogger"
+		},
+		{
+			"path": "../../tactiv/homekey-portal"
+		},
+		{
+			"path": "../../tactiv/ams"
+		},
+		{
+			"path": "../../tactiv/homekey"
+		},
+		{
+			"path": "."
+		}
+	]
+}

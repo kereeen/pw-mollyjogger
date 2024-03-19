@@ -1,0 +1,1558 @@
+{
+  "config": {
+    "configFile": "/Users/kerendianne/tech_exams/pw-mollyjogger/playwright.config.ts",
+    "rootDir": "/Users/kerendianne/tech_exams/pw-mollyjogger/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 4
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/kerendianne/tech_exams/pw-mollyjogger/tests",
+        "testIgnore": [
+          "**/test-examples/**"
+        ],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 180000
+      },
+      {
+        "outputDir": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/Users/kerendianne/tech_exams/pw-mollyjogger/tests",
+        "testIgnore": [
+          "**/test-examples/**"
+        ],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 180000
+      },
+      {
+        "outputDir": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/Users/kerendianne/tech_exams/pw-mollyjogger/tests",
+        "testIgnore": [
+          "**/test-examples/**"
+        ],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 180000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.42.1",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "specs/appMenu.spec.ts",
+      "file": "specs/appMenu.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "App Menu",
+          "file": "specs/appMenu.spec.ts",
+          "line": 5,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Verify that the App Menu is visible",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 10885,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-19T14:16:24.008Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-appMenu-App-Menu-Verify-that-the-App-Menu-is-visible-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5a6080b1bb1b93452365-18deb8e73b40cb0d9a8f",
+              "file": "specs/appMenu.spec.ts",
+              "line": 6,
+              "column": 9
+            },
+            {
+              "title": "Verify Hamburger Menu Opens App",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 11083,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-19T14:16:24.062Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-appMenu-App-Menu-Verify-Hamburger-Menu-Opens-App-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5a6080b1bb1b93452365-56d5575ee150cc506677",
+              "file": "specs/appMenu.spec.ts",
+              "line": 10,
+              "column": 9
+            },
+            {
+              "title": "Verify that the Shop Accordion is shown when shop is clicked",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 11423,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-19T14:16:24.008Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-appMenu-App-Menu-Verify-that-the-Shop-Accordion-is-shown-when-shop-is-clicked-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5a6080b1bb1b93452365-d502534e77e507a21f6c",
+              "file": "specs/appMenu.spec.ts",
+              "line": 16,
+              "column": 9
+            },
+            {
+              "title": "Verify accordion menu redirect ",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 11775,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-19T14:16:24.029Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-appMenu-App-Menu-Verify-accordion-menu-redirect--chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5a6080b1bb1b93452365-8ec3ba9e7af833dc11e4",
+              "file": "specs/appMenu.spec.ts",
+              "line": 24,
+              "column": 9
+            },
+            {
+              "title": "Verify that the App Menu is visible",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "status": "passed",
+                      "duration": 5739,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-19T14:16:58.641Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-appMenu-App-Menu-Verify-that-the-App-Menu-is-visible-firefox/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5a6080b1bb1b93452365-e83523f6416e5281cf78",
+              "file": "specs/appMenu.spec.ts",
+              "line": 6,
+              "column": 9
+            },
+            {
+              "title": "Verify Hamburger Menu Opens App",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "status": "passed",
+                      "duration": 5938,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-19T14:16:58.651Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-appMenu-App-Menu-Verify-Hamburger-Menu-Opens-App-firefox/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5a6080b1bb1b93452365-2b297ec14a5e63224e71",
+              "file": "specs/appMenu.spec.ts",
+              "line": 10,
+              "column": 9
+            },
+            {
+              "title": "Verify that the Shop Accordion is shown when shop is clicked",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "status": "passed",
+                      "duration": 8910,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-19T14:16:59.793Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-appMenu-App-Menu-Verify-that-the-Shop-Accordion-is-shown-when-shop-is-clicked-firefox/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5a6080b1bb1b93452365-cc0210b4c7b65717b48b",
+              "file": "specs/appMenu.spec.ts",
+              "line": 16,
+              "column": 9
+            },
+            {
+              "title": "Verify accordion menu redirect ",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "status": "passed",
+                      "duration": 10236,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-19T14:17:05.334Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-appMenu-App-Menu-Verify-accordion-menu-redirect--firefox/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5a6080b1bb1b93452365-181479a6fc69210452c2",
+              "file": "specs/appMenu.spec.ts",
+              "line": 24,
+              "column": 9
+            },
+            {
+              "title": "Verify that the App Menu is visible",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "status": "passed",
+                      "duration": 3668,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-19T14:17:38.996Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-appMenu-App-Menu-Verify-that-the-App-Menu-is-visible-webkit/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5a6080b1bb1b93452365-eab4ce6230febfdfa0a1",
+              "file": "specs/appMenu.spec.ts",
+              "line": 6,
+              "column": 9
+            },
+            {
+              "title": "Verify Hamburger Menu Opens App",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "status": "passed",
+                      "duration": 3693,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-19T14:17:41.011Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-appMenu-App-Menu-Verify-Hamburger-Menu-Opens-App-webkit/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5a6080b1bb1b93452365-e4176c26f49c8dd661d7",
+              "file": "specs/appMenu.spec.ts",
+              "line": 10,
+              "column": 9
+            },
+            {
+              "title": "Verify that the Shop Accordion is shown when shop is clicked",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "status": "passed",
+                      "duration": 5052,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-19T14:17:41.214Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-appMenu-App-Menu-Verify-that-the-Shop-Accordion-is-shown-when-shop-is-clicked-webkit/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5a6080b1bb1b93452365-96af31931e8b89a7e869",
+              "file": "specs/appMenu.spec.ts",
+              "line": 16,
+              "column": 9
+            },
+            {
+              "title": "Verify accordion menu redirect ",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "status": "passed",
+                      "duration": 6873,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-19T14:17:43.592Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-appMenu-App-Menu-Verify-accordion-menu-redirect--webkit/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5a6080b1bb1b93452365-4f2d183c152d410758a3",
+              "file": "specs/appMenu.spec.ts",
+              "line": 24,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "specs/e2e.spec.ts",
+      "file": "specs/e2e.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "E2E Checkout",
+          "file": "specs/e2e.spec.ts",
+          "line": 9,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Verify Product Added to Cart and Successful Navigation to Checkout",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 15099,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-19T14:16:36.304Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-e2e-E2E-Checkout-Verify-Product-Added-to-Cart-and-Successful-Navigation-to-Checkout-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b03e8f2d10f59ddfaf3b-c3b3e984440fa97cf1b1",
+              "file": "specs/e2e.spec.ts",
+              "line": 10,
+              "column": 9
+            },
+            {
+              "title": "Verify Successful Multiple Products to Checkout",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 15641,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-19T14:16:36.454Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-e2e-E2E-Checkout-Verify-Successful-Multiple-Products-to-Checkout-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b03e8f2d10f59ddfaf3b-bba402c64892d956cf42",
+              "file": "specs/e2e.spec.ts",
+              "line": 29,
+              "column": 9
+            },
+            {
+              "title": "Verify Product Added to Cart and Successful Navigation to Checkout",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "status": "passed",
+                      "duration": 24289,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-19T14:17:05.905Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-e2e-E2E-Checkout-Verify-Product-Added-to-Cart-and-Successful-Navigation-to-Checkout-firefox/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b03e8f2d10f59ddfaf3b-35d152ead9ef0b8ffabe",
+              "file": "specs/e2e.spec.ts",
+              "line": 10,
+              "column": 9
+            },
+            {
+              "title": "Verify Successful Multiple Products to Checkout",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "status": "passed",
+                      "duration": 20947,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-19T14:17:06.077Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-e2e-E2E-Checkout-Verify-Successful-Multiple-Products-to-Checkout-firefox/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b03e8f2d10f59ddfaf3b-96721c1b17be8ae64bcd",
+              "file": "specs/e2e.spec.ts",
+              "line": 29,
+              "column": 9
+            },
+            {
+              "title": "Verify Product Added to Cart and Successful Navigation to Checkout",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "status": "passed",
+                      "duration": 15989,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-19T14:17:45.204Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-e2e-E2E-Checkout-Verify-Product-Added-to-Cart-and-Successful-Navigation-to-Checkout-webkit/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b03e8f2d10f59ddfaf3b-7e2e555998a075f751bb",
+              "file": "specs/e2e.spec.ts",
+              "line": 10,
+              "column": 9
+            },
+            {
+              "title": "Verify Successful Multiple Products to Checkout",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "status": "passed",
+                      "duration": 18202,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-19T14:17:48.157Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-e2e-E2E-Checkout-Verify-Successful-Multiple-Products-to-Checkout-webkit/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b03e8f2d10f59ddfaf3b-7e705b11c9e9ab9c09fc",
+              "file": "specs/e2e.spec.ts",
+              "line": 29,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "specs/productList.spec.ts",
+      "file": "specs/productList.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Products List Page",
+          "file": "specs/productList.spec.ts",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Verify Product Category Display",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 10743,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-19T14:16:36.642Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-productList-Products-List-Page-Verify-Product-Category-Display-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d62a95c758afad1be0-623ef9234525af49e350",
+              "file": "specs/productList.spec.ts",
+              "line": 8,
+              "column": 7
+            },
+            {
+              "title": "Verify Product Category Display",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "status": "passed",
+                      "duration": 14866,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-19T14:17:10.449Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-productList-Products-List-Page-Verify-Product-Category-Display-firefox/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d62a95c758afad1be0-a7645d93177c255443f4",
+              "file": "specs/productList.spec.ts",
+              "line": 8,
+              "column": 7
+            },
+            {
+              "title": "Verify Product Category Display",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "status": "passed",
+                      "duration": 10583,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-19T14:17:46.941Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-productList-Products-List-Page-Verify-Product-Category-Display-webkit/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d62a95c758afad1be0-4dfb49fb286e254263f6",
+              "file": "specs/productList.spec.ts",
+              "line": 8,
+              "column": 7
+            }
+          ],
+          "suites": [
+            {
+              "title": "Sorting Products",
+              "file": "specs/productList.spec.ts",
+              "line": 20,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "Alphabetical Sort: A-Z",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 180000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 3,
+                          "status": "passed",
+                          "duration": 18041,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2024-03-19T14:16:36.908Z",
+                          "attachments": [
+                            {
+                              "name": "trace",
+                              "contentType": "application/zip",
+                              "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-productList-Products-List-Page-Sorting-Products-Alphabetical-Sort-A-Z-chromium/trace.zip"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "41d62a95c758afad1be0-58c2ae06cbccc3747474",
+                  "file": "specs/productList.spec.ts",
+                  "line": 21,
+                  "column": 9
+                },
+                {
+                  "title": "Pricing Sort: Low to High",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 180000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "status": "passed",
+                          "duration": 15787,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2024-03-19T14:16:47.887Z",
+                          "attachments": [
+                            {
+                              "name": "trace",
+                              "contentType": "application/zip",
+                              "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-productList-Products-List-Page-Sorting-Products-Pricing-Sort-Low-to-High-chromium/trace.zip"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "41d62a95c758afad1be0-503e049dc28b91cc4528",
+                  "file": "specs/productList.spec.ts",
+                  "line": 39,
+                  "column": 9
+                },
+                {
+                  "title": "Alphabetical Sort: A-Z",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 180000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "firefox",
+                      "projectName": "firefox",
+                      "results": [
+                        {
+                          "workerIndex": 7,
+                          "status": "passed",
+                          "duration": 21389,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2024-03-19T14:17:17.586Z",
+                          "attachments": [
+                            {
+                              "name": "trace",
+                              "contentType": "application/zip",
+                              "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-productList-Products-List-Page-Sorting-Products-Alphabetical-Sort-A-Z-firefox/trace.zip"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "41d62a95c758afad1be0-507873d772d7d02d52c4",
+                  "file": "specs/productList.spec.ts",
+                  "line": 21,
+                  "column": 9
+                },
+                {
+                  "title": "Pricing Sort: Low to High",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 180000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "firefox",
+                      "projectName": "firefox",
+                      "results": [
+                        {
+                          "workerIndex": 6,
+                          "status": "passed",
+                          "duration": 17836,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2024-03-19T14:17:26.872Z",
+                          "attachments": [
+                            {
+                              "name": "trace",
+                              "contentType": "application/zip",
+                              "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-productList-Products-List-Page-Sorting-Products-Pricing-Sort-Low-to-High-firefox/trace.zip"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "41d62a95c758afad1be0-38a3953417e85e80ed2e",
+                  "file": "specs/productList.spec.ts",
+                  "line": 39,
+                  "column": 9
+                },
+                {
+                  "title": "Alphabetical Sort: A-Z",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 180000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "webkit",
+                      "projectName": "webkit",
+                      "results": [
+                        {
+                          "workerIndex": 8,
+                          "status": "passed",
+                          "duration": 16027,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2024-03-19T14:17:51.245Z",
+                          "attachments": [
+                            {
+                              "name": "trace",
+                              "contentType": "application/zip",
+                              "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-productList-Products-List-Page-Sorting-Products-Alphabetical-Sort-A-Z-webkit/trace.zip"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "41d62a95c758afad1be0-1d70f30751be8af4a7fa",
+                  "file": "specs/productList.spec.ts",
+                  "line": 21,
+                  "column": 9
+                },
+                {
+                  "title": "Pricing Sort: Low to High",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 180000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "webkit",
+                      "projectName": "webkit",
+                      "results": [
+                        {
+                          "workerIndex": 10,
+                          "status": "passed",
+                          "duration": 14823,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2024-03-19T14:17:58.966Z",
+                          "attachments": [
+                            {
+                              "name": "trace",
+                              "contentType": "application/zip",
+                              "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-productList-Products-List-Page-Sorting-Products-Pricing-Sort-Low-to-High-webkit/trace.zip"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "41d62a95c758afad1be0-24b5d900b060bf29ae8f",
+                  "file": "specs/productList.spec.ts",
+                  "line": 39,
+                  "column": 9
+                }
+              ]
+            },
+            {
+              "title": "Viewing Products",
+              "file": "specs/productList.spec.ts",
+              "line": 66,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "Verify Icon View",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 180000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "status": "passed",
+                          "duration": 5144,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2024-03-19T14:16:52.395Z",
+                          "attachments": [
+                            {
+                              "name": "trace",
+                              "contentType": "application/zip",
+                              "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-productList-Products-List-Page-Viewing-Products-Verify-Icon-View-chromium/trace.zip"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "41d62a95c758afad1be0-b9865c13478490350fa3",
+                  "file": "specs/productList.spec.ts",
+                  "line": 67,
+                  "column": 9
+                },
+                {
+                  "title": "Verify List View",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 180000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 1,
+                          "status": "passed",
+                          "duration": 4360,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2024-03-19T14:16:53.037Z",
+                          "attachments": [
+                            {
+                              "name": "trace",
+                              "contentType": "application/zip",
+                              "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-productList-Products-List-Page-Viewing-Products-Verify-List-View-chromium/trace.zip"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "41d62a95c758afad1be0-172432c2314d4b85a67a",
+                  "file": "specs/productList.spec.ts",
+                  "line": 77,
+                  "column": 9
+                },
+                {
+                  "title": "Verify Icon View",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 180000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "firefox",
+                      "projectName": "firefox",
+                      "results": [
+                        {
+                          "workerIndex": 5,
+                          "status": "passed",
+                          "duration": 4904,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2024-03-19T14:17:29.421Z",
+                          "attachments": [
+                            {
+                              "name": "trace",
+                              "contentType": "application/zip",
+                              "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-productList-Products-List-Page-Viewing-Products-Verify-Icon-View-firefox/trace.zip"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "41d62a95c758afad1be0-4ca400b57dd1c52d1e38",
+                  "file": "specs/productList.spec.ts",
+                  "line": 67,
+                  "column": 9
+                },
+                {
+                  "title": "Verify List View",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 180000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "firefox",
+                      "projectName": "firefox",
+                      "results": [
+                        {
+                          "workerIndex": 4,
+                          "status": "passed",
+                          "duration": 5766,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2024-03-19T14:17:31.078Z",
+                          "attachments": [
+                            {
+                              "name": "trace",
+                              "contentType": "application/zip",
+                              "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-productList-Products-List-Page-Viewing-Products-Verify-List-View-firefox/trace.zip"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "41d62a95c758afad1be0-49a7bf693b07394cefa1",
+                  "file": "specs/productList.spec.ts",
+                  "line": 77,
+                  "column": 9
+                },
+                {
+                  "title": "Verify Icon View",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 180000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "webkit",
+                      "projectName": "webkit",
+                      "results": [
+                        {
+                          "workerIndex": 9,
+                          "status": "passed",
+                          "duration": 5106,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2024-03-19T14:18:02.322Z",
+                          "attachments": [
+                            {
+                              "name": "trace",
+                              "contentType": "application/zip",
+                              "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-productList-Products-List-Page-Viewing-Products-Verify-Icon-View-webkit/trace.zip"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "41d62a95c758afad1be0-d9b8c67985ce6d614cf0",
+                  "file": "specs/productList.spec.ts",
+                  "line": 67,
+                  "column": 9
+                },
+                {
+                  "title": "Verify List View",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 180000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "webkit",
+                      "projectName": "webkit",
+                      "results": [
+                        {
+                          "workerIndex": 11,
+                          "status": "passed",
+                          "duration": 3149,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2024-03-19T14:18:07.742Z",
+                          "attachments": [
+                            {
+                              "name": "trace",
+                              "contentType": "application/zip",
+                              "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-productList-Products-List-Page-Viewing-Products-Verify-List-View-webkit/trace.zip"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "41d62a95c758afad1be0-580ef850029e5e3a9321",
+                  "file": "specs/productList.spec.ts",
+                  "line": 77,
+                  "column": 9
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "specs/search.spec.ts",
+      "file": "specs/search.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "App Menu",
+          "file": "specs/search.spec.ts",
+          "line": 5,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Verify search results are properly displaying",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 3162,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-19T14:16:55.695Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-search-App-Menu-Verify-search-results-are-properly-displaying-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "34c17d23348d552ccd6a-8be4dea09998af1e9c8b",
+              "file": "specs/search.spec.ts",
+              "line": 6,
+              "column": 9
+            },
+            {
+              "title": "Verify search results are properly displaying",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "status": "passed",
+                      "duration": 4625,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-19T14:17:34.626Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-search-App-Menu-Verify-search-results-are-properly-displaying-firefox/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "34c17d23348d552ccd6a-1f75ca8c903fe55599e0",
+              "file": "specs/search.spec.ts",
+              "line": 6,
+              "column": 9
+            },
+            {
+              "title": "Verify search results are properly displaying",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "status": "passed",
+                      "duration": 3902,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-19T14:18:07.819Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-search-App-Menu-Verify-search-results-are-properly-displaying-webkit/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "34c17d23348d552ccd6a-a0a615342c4b53f905f0",
+              "file": "specs/search.spec.ts",
+              "line": 6,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-03-19T14:16:23.525Z",
+    "duration": 110656.002,
+    "expected": 36,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
