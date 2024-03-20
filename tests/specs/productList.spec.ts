@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { time } from 'console';
-const timeout = 10000;
+const timeoutAmt = 15000;
 test.beforeEach(async ({ page }) => {
   await page.goto('https://www.mollyjogger.com/');
 });
@@ -19,48 +19,76 @@ test.describe('Products List Page', () => {
 
   test.describe('Sorting Products',() => {
     test('Alphabetical Sort: A-Z', async ({ page }) => {
+      test.slow();
       await page.locator('#page')
       .getByRole('navigation')
       .getByRole('link', { name: 'Shop', exact:true }).hover();
       await page.getByRole('link', { name: 'Apparel', exact: true }).click();
-      await page.getByText('Inventory').isVisible();
+      // wait for elements to load
+      await page.waitForURL('**/inventory/clothing-accessories');
+      await page.getByRole('link', { name: 'All Products' }).isVisible();
+      // get the initial list of elements
       const unsortedItems: string[] = await page.$$eval('.product-title', (elements: Element[]) => 
         elements.map((element: Element) => (element.textContent || '').trim()));
-      await page.getByLabel('Sort by').selectOption('title-ascending');
-      await page.getByText('Inventory').isVisible();
-      await page.waitForTimeout(timeout); 
+      // sort the list of elements
+      const expectedSortedItems = unsortedItems.slice().sort();
+      // select sort
+      await page.waitForURL('**/inventory/clothing-accessories');
+      await page.getByRole('link', { name: 'All Products' }).isVisible();
+      await page.locator('select[id="SortBy"]').selectOption('title-ascending');
+      // wait for elements to load
+      await page.waitForURL('**/inventory/clothing-accessories?sort_by=title-ascending');
+      await expect(await page.locator('.product-title')).toHaveCount(unsortedItems.length, {
+      timeout: timeoutAmt
+      });
+      // get sorted list of elements
       const sortedItems: string[] = await page.$$eval('.product-title', (elements: Element[]) =>
         elements.map((element: Element) => (element.textContent || '').trim()));
-      const expectedSortedItems = unsortedItems.slice().sort();
-      
-      await expect(sortedItems).toEqual(expectedSortedItems);
+      await expect(sortedItems).toStrictEqual(expectedSortedItems);
     });
 
     test('Pricing Sort: Low to High', async ({ page }) => {
+      test.slow();
       await page.locator('#page')
       .getByRole('navigation')
       .getByRole('link', { name: 'Shop', exact:true }).hover();
       await page.getByRole('link', { name: 'Apparel', exact: true }).click();
-      await page.getByText('Inventory').isVisible();
+      // wait for elements to load
+      await page.waitForURL('**/inventory/clothing-accessories');
+      await page.getByRole('link', { name: 'All Products' }).isVisible();
+      // get the initial list of elements
       const unsortedPrices = await page.$$eval('.money:not(.original-price)', elements => {
           return elements.map(element => {
               const text = element.textContent?.trim() || '';
-              let value = parseFloat(text.replace(/[^0-9.]/g, ''));
+              let value: number | null = parseFloat(text.replace(/[^0-9.]/g, ''));
+              if (isNaN(value)) {
+                value = null; // Replace NaN with null
+              }
               return value;
           });
       });
+      // sort the list of elements
       const expectedSortedPrices = [...unsortedPrices].sort((a, b) => a - b);
-      await page.getByLabel('Sort by').selectOption('price-ascending');
-      await page.getByText('Inventory').isVisible();
-      await page.waitForTimeout(timeout); 
+      // select sort
+      await page.getByLabel('Sort by').click();
+      await page.locator('select[id="SortBy"]').selectOption('price-ascending');
+      // wait for elements to load
+      await page.waitForURL('**/inventory/clothing-accessories?sort_by=price-ascending');
+      await expect(await page.locator('.money:not(.original-price)')).toHaveCount(expectedSortedPrices.length, {
+        timeout: timeoutAmt
+        });
+      // get sorted list of elements
       const sortedPrices = await page.$$eval('.money:not(.original-price)', elements => {
-          return elements.map(element => {
-            const text = element.textContent?.trim() || '';
-            const value = parseFloat(text.replace(/[^0-9.]/g, ''));
-              return value;
-          });
+        return elements.map(element => {
+          const text = element.textContent?.trim() || '';
+          let value: number | null = parseFloat(text.replace(/[^0-9.]/g, ''));
+          if (isNaN(value)) {
+            value = null; // Replace NaN with null
+          }
+          return value;
+        });
       });
-      await expect(sortedPrices).toEqual(expectedSortedPrices);
+      await expect(sortedPrices).toStrictEqual(expectedSortedPrices);
     });
   });
   test.describe('Viewing Products', () => {
