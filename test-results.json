@@ -41,7 +41,7 @@
       {
         "outputDir": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results",
         "repeatEach": 1,
-        "retries": 0,
+        "retries": 1,
         "id": "chromium",
         "name": "chromium",
         "testDir": "/Users/kerendianne/tech_exams/pw-mollyjogger/tests",
@@ -51,12 +51,12 @@
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
         ],
-        "timeout": 180000
+        "timeout": 120000
       },
       {
         "outputDir": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results",
         "repeatEach": 1,
-        "retries": 0,
+        "retries": 1,
         "id": "firefox",
         "name": "firefox",
         "testDir": "/Users/kerendianne/tech_exams/pw-mollyjogger/tests",
@@ -66,12 +66,12 @@
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
         ],
-        "timeout": 180000
+        "timeout": 120000
       },
       {
         "outputDir": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results",
         "repeatEach": 1,
-        "retries": 0,
+        "retries": 1,
         "id": "webkit",
         "name": "webkit",
         "testDir": "/Users/kerendianne/tech_exams/pw-mollyjogger/tests",
@@ -81,7 +81,7 @@
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
         ],
-        "timeout": 180000
+        "timeout": 120000
       }
     ],
     "shard": null,
@@ -110,7 +110,7 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 180000,
+                  "timeout": 120000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "chromium",
@@ -119,19 +119,13 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 10885,
+                      "duration": 6649,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-03-19T14:16:24.008Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-appMenu-App-Menu-Verify-that-the-App-Menu-is-visible-chromium/trace.zip"
-                        }
-                      ]
+                      "startTime": "2024-03-20T12:04:27.524Z",
+                      "attachments": []
                     }
                   ],
                   "status": "expected"
@@ -148,7 +142,7 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 180000,
+                  "timeout": 120000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "chromium",
@@ -157,19 +151,13 @@
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 11083,
+                      "duration": 6754,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-03-19T14:16:24.062Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-appMenu-App-Menu-Verify-Hamburger-Menu-Opens-App-chromium/trace.zip"
-                        }
-                      ]
+                      "startTime": "2024-03-20T12:04:27.510Z",
+                      "attachments": []
                     }
                   ],
                   "status": "expected"
@@ -186,7 +174,7 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 180000,
+                  "timeout": 120000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "chromium",
@@ -195,19 +183,13 @@
                     {
                       "workerIndex": 2,
                       "status": "passed",
-                      "duration": 11423,
+                      "duration": 7487,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-03-19T14:16:24.008Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-appMenu-App-Menu-Verify-that-the-Shop-Accordion-is-shown-when-shop-is-clicked-chromium/trace.zip"
-                        }
-                      ]
+                      "startTime": "2024-03-20T12:04:27.514Z",
+                      "attachments": []
                     }
                   ],
                   "status": "expected"
@@ -224,7 +206,7 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 180000,
+                  "timeout": 120000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "chromium",
@@ -233,19 +215,13 @@
                     {
                       "workerIndex": 3,
                       "status": "passed",
-                      "duration": 11775,
+                      "duration": 7722,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-03-19T14:16:24.029Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-appMenu-App-Menu-Verify-accordion-menu-redirect--chromium/trace.zip"
-                        }
-                      ]
+                      "startTime": "2024-03-20T12:04:27.517Z",
+                      "attachments": []
                     }
                   ],
                   "status": "expected"
@@ -262,7 +238,7 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 180000,
+                  "timeout": 120000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "firefox",
@@ -271,19 +247,13 @@
                     {
                       "workerIndex": 4,
                       "status": "passed",
-                      "duration": 5739,
+                      "duration": 5402,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-03-19T14:16:58.641Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-appMenu-App-Menu-Verify-that-the-App-Menu-is-visible-firefox/trace.zip"
-                        }
-                      ]
+                      "startTime": "2024-03-20T12:04:42.595Z",
+                      "attachments": []
                     }
                   ],
                   "status": "expected"
@@ -300,7 +270,7 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 180000,
+                  "timeout": 120000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "firefox",
@@ -309,19 +279,13 @@
                     {
                       "workerIndex": 5,
                       "status": "passed",
-                      "duration": 5938,
+                      "duration": 5667,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-03-19T14:16:58.651Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-appMenu-App-Menu-Verify-Hamburger-Menu-Opens-App-firefox/trace.zip"
-                        }
-                      ]
+                      "startTime": "2024-03-20T12:04:42.675Z",
+                      "attachments": []
                     }
                   ],
                   "status": "expected"
@@ -338,7 +302,7 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 180000,
+                  "timeout": 120000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "firefox",
@@ -347,19 +311,13 @@
                     {
                       "workerIndex": 6,
                       "status": "passed",
-                      "duration": 8910,
+                      "duration": 4145,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-03-19T14:16:59.793Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-appMenu-App-Menu-Verify-that-the-Shop-Accordion-is-shown-when-shop-is-clicked-firefox/trace.zip"
-                        }
-                      ]
+                      "startTime": "2024-03-20T12:04:45.088Z",
+                      "attachments": []
                     }
                   ],
                   "status": "expected"
@@ -376,7 +334,7 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 180000,
+                  "timeout": 120000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "firefox",
@@ -385,19 +343,13 @@
                     {
                       "workerIndex": 7,
                       "status": "passed",
-                      "duration": 10236,
+                      "duration": 5145,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-03-19T14:17:05.334Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-appMenu-App-Menu-Verify-accordion-menu-redirect--firefox/trace.zip"
-                        }
-                      ]
+                      "startTime": "2024-03-20T12:04:45.310Z",
+                      "attachments": []
                     }
                   ],
                   "status": "expected"
@@ -414,7 +366,7 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 180000,
+                  "timeout": 120000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "webkit",
@@ -423,19 +375,13 @@
                     {
                       "workerIndex": 8,
                       "status": "passed",
-                      "duration": 3668,
+                      "duration": 2778,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-03-19T14:17:38.996Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-appMenu-App-Menu-Verify-that-the-App-Menu-is-visible-webkit/trace.zip"
-                        }
-                      ]
+                      "startTime": "2024-03-20T12:05:00.600Z",
+                      "attachments": []
                     }
                   ],
                   "status": "expected"
@@ -452,7 +398,7 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 180000,
+                  "timeout": 120000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "webkit",
@@ -461,19 +407,13 @@
                     {
                       "workerIndex": 9,
                       "status": "passed",
-                      "duration": 3693,
+                      "duration": 2959,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-03-19T14:17:41.011Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-appMenu-App-Menu-Verify-Hamburger-Menu-Opens-App-webkit/trace.zip"
-                        }
-                      ]
+                      "startTime": "2024-03-20T12:05:00.599Z",
+                      "attachments": []
                     }
                   ],
                   "status": "expected"
@@ -490,7 +430,7 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 180000,
+                  "timeout": 120000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "webkit",
@@ -499,19 +439,13 @@
                     {
                       "workerIndex": 10,
                       "status": "passed",
-                      "duration": 5052,
+                      "duration": 3473,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-03-19T14:17:41.214Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-appMenu-App-Menu-Verify-that-the-Shop-Accordion-is-shown-when-shop-is-clicked-webkit/trace.zip"
-                        }
-                      ]
+                      "startTime": "2024-03-20T12:05:01.835Z",
+                      "attachments": []
                     }
                   ],
                   "status": "expected"
@@ -528,7 +462,7 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 180000,
+                  "timeout": 120000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "webkit",
@@ -537,19 +471,13 @@
                     {
                       "workerIndex": 8,
                       "status": "passed",
-                      "duration": 6873,
+                      "duration": 3969,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-03-19T14:17:43.592Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-appMenu-App-Menu-Verify-accordion-menu-redirect--webkit/trace.zip"
-                        }
-                      ]
+                      "startTime": "2024-03-20T12:05:03.571Z",
+                      "attachments": []
                     }
                   ],
                   "status": "expected"
@@ -583,7 +511,7 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 180000,
+                  "timeout": 120000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "chromium",
@@ -592,19 +520,13 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 15099,
+                      "duration": 7407,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-03-19T14:16:36.304Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-e2e-E2E-Checkout-Verify-Product-Added-to-Cart-and-Successful-Navigation-to-Checkout-chromium/trace.zip"
-                        }
-                      ]
+                      "startTime": "2024-03-20T12:04:34.557Z",
+                      "attachments": []
                     }
                   ],
                   "status": "expected"
@@ -621,7 +543,7 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 180000,
+                  "timeout": 120000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "chromium",
@@ -630,19 +552,13 @@
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 15641,
+                      "duration": 7541,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-03-19T14:16:36.454Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-e2e-E2E-Checkout-Verify-Successful-Multiple-Products-to-Checkout-chromium/trace.zip"
-                        }
-                      ]
+                      "startTime": "2024-03-20T12:04:34.658Z",
+                      "attachments": []
                     }
                   ],
                   "status": "expected"
@@ -659,7 +575,7 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 180000,
+                  "timeout": 120000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "firefox",
@@ -668,19 +584,13 @@
                     {
                       "workerIndex": 4,
                       "status": "passed",
-                      "duration": 24289,
+                      "duration": 9194,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-03-19T14:17:05.905Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-e2e-E2E-Checkout-Verify-Product-Added-to-Cart-and-Successful-Navigation-to-Checkout-firefox/trace.zip"
-                        }
-                      ]
+                      "startTime": "2024-03-20T12:04:48.629Z",
+                      "attachments": []
                     }
                   ],
                   "status": "expected"
@@ -697,7 +607,7 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 180000,
+                  "timeout": 120000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "firefox",
@@ -706,19 +616,13 @@
                     {
                       "workerIndex": 5,
                       "status": "passed",
-                      "duration": 20947,
+                      "duration": 7706,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-03-19T14:17:06.077Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-e2e-E2E-Checkout-Verify-Successful-Multiple-Products-to-Checkout-firefox/trace.zip"
-                        }
-                      ]
+                      "startTime": "2024-03-20T12:04:48.893Z",
+                      "attachments": []
                     }
                   ],
                   "status": "expected"
@@ -735,7 +639,7 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 180000,
+                  "timeout": 120000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "webkit",
@@ -744,19 +648,13 @@
                     {
                       "workerIndex": 9,
                       "status": "passed",
-                      "duration": 15989,
+                      "duration": 15252,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-03-19T14:17:45.204Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-e2e-E2E-Checkout-Verify-Product-Added-to-Cart-and-Successful-Navigation-to-Checkout-webkit/trace.zip"
-                        }
-                      ]
+                      "startTime": "2024-03-20T12:05:03.755Z",
+                      "attachments": []
                     }
                   ],
                   "status": "expected"
@@ -773,28 +671,22 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 180000,
+                  "timeout": 120000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "webkit",
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 11,
+                      "workerIndex": 10,
                       "status": "passed",
-                      "duration": 18202,
+                      "duration": 6880,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-03-19T14:17:48.157Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-e2e-E2E-Checkout-Verify-Successful-Multiple-Products-to-Checkout-webkit/trace.zip"
-                        }
-                      ]
+                      "startTime": "2024-03-20T12:05:05.435Z",
+                      "attachments": []
                     }
                   ],
                   "status": "expected"
@@ -828,7 +720,7 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 180000,
+                  "timeout": 120000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "chromium",
@@ -837,19 +729,13 @@
                     {
                       "workerIndex": 2,
                       "status": "passed",
-                      "duration": 10743,
+                      "duration": 4180,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-03-19T14:16:36.642Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-productList-Products-List-Page-Verify-Product-Category-Display-chromium/trace.zip"
-                        }
-                      ]
+                      "startTime": "2024-03-20T12:04:35.392Z",
+                      "attachments": []
                     }
                   ],
                   "status": "expected"
@@ -866,7 +752,7 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 180000,
+                  "timeout": 120000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "firefox",
@@ -875,19 +761,13 @@
                     {
                       "workerIndex": 6,
                       "status": "passed",
-                      "duration": 14866,
+                      "duration": 6427,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-03-19T14:17:10.449Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-productList-Products-List-Page-Verify-Product-Category-Display-firefox/trace.zip"
-                        }
-                      ]
+                      "startTime": "2024-03-20T12:04:49.671Z",
+                      "attachments": []
                     }
                   ],
                   "status": "expected"
@@ -904,28 +784,22 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 180000,
+                  "timeout": 120000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "webkit",
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 10,
+                      "workerIndex": 8,
                       "status": "passed",
-                      "duration": 10583,
+                      "duration": 7484,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-03-19T14:17:46.941Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-productList-Products-List-Page-Verify-Product-Category-Display-webkit/trace.zip"
-                        }
-                      ]
+                      "startTime": "2024-03-20T12:05:07.547Z",
+                      "attachments": []
                     }
                   ],
                   "status": "expected"
@@ -950,8 +824,12 @@
                   "tags": [],
                   "tests": [
                     {
-                      "timeout": 180000,
-                      "annotations": [],
+                      "timeout": 360000,
+                      "annotations": [
+                        {
+                          "type": "slow"
+                        }
+                      ],
                       "expectedStatus": "passed",
                       "projectId": "chromium",
                       "projectName": "chromium",
@@ -959,19 +837,23 @@
                         {
                           "workerIndex": 3,
                           "status": "passed",
-                          "duration": 18041,
+                          "duration": 3442,
                           "errors": [],
-                          "stdout": [],
+                          "stdout": [
+                            {
+                              "text": "1 extract unsorted: CCC Legacy Bandana,CCC Legacy Bandana Dungarees Blue,River Hound T-Shirt,Legendary McCloud T-Shirt,Arrowhead Canoe T-Shirt,Timber Jones Cap,Woodland Jones Cap,Red Plaid Jones Cap,Nailhead Canvas Jones Cap,Buffalo Check Jones Cap,Ozarks 1900 Bandana,Wampus Cat Tee,Smallmouth Bass 1900,Feathered Lure Bandanña,Realtree® Tractor Cap,Mollyjogger Vintage Logo,Pointer Shirt,Trail Cover™ Six Panel Cap,Trebark™ Six Panel Cap,McCloud Waxed Cap\n"
+                            },
+                            {
+                              "text": "2 code sorted: Arrowhead Canoe T-Shirt,Buffalo Check Jones Cap,CCC Legacy Bandana,CCC Legacy Bandana Dungarees Blue,Feathered Lure Bandanña,Legendary McCloud T-Shirt,McCloud Waxed Cap,Mollyjogger Vintage Logo,Nailhead Canvas Jones Cap,Ozarks 1900 Bandana,Pointer Shirt,Realtree® Tractor Cap,Red Plaid Jones Cap,River Hound T-Shirt,Smallmouth Bass 1900,Timber Jones Cap,Trail Cover™ Six Panel Cap,Trebark™ Six Panel Cap,Wampus Cat Tee,Woodland Jones Cap\n"
+                            },
+                            {
+                              "text": "3 extract websorted: Arrowhead Canoe T-Shirt,Buffalo Check Jones Cap,CCC Legacy Bandana,CCC Legacy Bandana Dungarees Blue,Feathered Lure Bandanña,Legendary McCloud T-Shirt,McCloud Waxed Cap,Mollyjogger Vintage Logo,Nailhead Canvas Jones Cap,Ozarks 1900 Bandana,Pointer Shirt,Realtree® Tractor Cap,Red Plaid Jones Cap,River Hound T-Shirt,Smallmouth Bass 1900,Timber Jones Cap,Trail Cover™ Six Panel Cap,Trebark™ Six Panel Cap,Wampus Cat Tee,Woodland Jones Cap\n"
+                            }
+                          ],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2024-03-19T14:16:36.908Z",
-                          "attachments": [
-                            {
-                              "name": "trace",
-                              "contentType": "application/zip",
-                              "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-productList-Products-List-Page-Sorting-Products-Alphabetical-Sort-A-Z-chromium/trace.zip"
-                            }
-                          ]
+                          "startTime": "2024-03-20T12:04:35.631Z",
+                          "attachments": []
                         }
                       ],
                       "status": "expected"
@@ -988,28 +870,36 @@
                   "tags": [],
                   "tests": [
                     {
-                      "timeout": 180000,
-                      "annotations": [],
+                      "timeout": 360000,
+                      "annotations": [
+                        {
+                          "type": "slow"
+                        }
+                      ],
                       "expectedStatus": "passed",
                       "projectId": "chromium",
                       "projectName": "chromium",
                       "results": [
                         {
-                          "workerIndex": 2,
+                          "workerIndex": 3,
                           "status": "passed",
-                          "duration": 15787,
+                          "duration": 3221,
                           "errors": [],
-                          "stdout": [],
+                          "stdout": [
+                            {
+                              "text": "1 extract unsorted: ,18,18,28.5,29.5,28.5,22.49,39.5,39.98,34.49,39.98,14,24,29.5,12.5,28.5,24,24.5,24.5,24.5,39\n"
+                            },
+                            {
+                              "text": "2 code sorted: ,12.5,14,18,18,22.49,24,24,24.5,24.5,24.5,28.5,28.5,28.5,29.5,29.5,34.49,39,39.5,39.98,39.98\n"
+                            },
+                            {
+                              "text": "3 code sorted: ,12.5,14,18,18,22.49,24,24,24.5,24.5,24.5,28.5,28.5,28.5,29.5,29.5,34.49,39,39.5,39.98,39.98\n"
+                            }
+                          ],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2024-03-19T14:16:47.887Z",
-                          "attachments": [
-                            {
-                              "name": "trace",
-                              "contentType": "application/zip",
-                              "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-productList-Products-List-Page-Sorting-Products-Pricing-Sort-Low-to-High-chromium/trace.zip"
-                            }
-                          ]
+                          "startTime": "2024-03-20T12:04:39.079Z",
+                          "attachments": []
                         }
                       ],
                       "status": "expected"
@@ -1017,7 +907,7 @@
                   ],
                   "id": "41d62a95c758afad1be0-503e049dc28b91cc4528",
                   "file": "specs/productList.spec.ts",
-                  "line": 39,
+                  "line": 54,
                   "column": 9
                 },
                 {
@@ -1026,8 +916,12 @@
                   "tags": [],
                   "tests": [
                     {
-                      "timeout": 180000,
-                      "annotations": [],
+                      "timeout": 360000,
+                      "annotations": [
+                        {
+                          "type": "slow"
+                        }
+                      ],
                       "expectedStatus": "passed",
                       "projectId": "firefox",
                       "projectName": "firefox",
@@ -1035,19 +929,23 @@
                         {
                           "workerIndex": 7,
                           "status": "passed",
-                          "duration": 21389,
+                          "duration": 4866,
                           "errors": [],
-                          "stdout": [],
+                          "stdout": [
+                            {
+                              "text": "1 extract unsorted: CCC Legacy Bandana,CCC Legacy Bandana Dungarees Blue,River Hound T-Shirt,Legendary McCloud T-Shirt,Arrowhead Canoe T-Shirt,Timber Jones Cap,Woodland Jones Cap,Red Plaid Jones Cap,Nailhead Canvas Jones Cap,Buffalo Check Jones Cap,Ozarks 1900 Bandana,Wampus Cat Tee,Smallmouth Bass 1900,Feathered Lure Bandanña,Realtree® Tractor Cap,Mollyjogger Vintage Logo,Pointer Shirt,Trail Cover™ Six Panel Cap,Trebark™ Six Panel Cap,McCloud Waxed Cap\n"
+                            },
+                            {
+                              "text": "2 code sorted: Arrowhead Canoe T-Shirt,Buffalo Check Jones Cap,CCC Legacy Bandana,CCC Legacy Bandana Dungarees Blue,Feathered Lure Bandanña,Legendary McCloud T-Shirt,McCloud Waxed Cap,Mollyjogger Vintage Logo,Nailhead Canvas Jones Cap,Ozarks 1900 Bandana,Pointer Shirt,Realtree® Tractor Cap,Red Plaid Jones Cap,River Hound T-Shirt,Smallmouth Bass 1900,Timber Jones Cap,Trail Cover™ Six Panel Cap,Trebark™ Six Panel Cap,Wampus Cat Tee,Woodland Jones Cap\n"
+                            },
+                            {
+                              "text": "3 extract websorted: Arrowhead Canoe T-Shirt,Buffalo Check Jones Cap,CCC Legacy Bandana,CCC Legacy Bandana Dungarees Blue,Feathered Lure Bandanña,Legendary McCloud T-Shirt,McCloud Waxed Cap,Mollyjogger Vintage Logo,Nailhead Canvas Jones Cap,Ozarks 1900 Bandana,Pointer Shirt,Realtree® Tractor Cap,Red Plaid Jones Cap,River Hound T-Shirt,Smallmouth Bass 1900,Timber Jones Cap,Trail Cover™ Six Panel Cap,Trebark™ Six Panel Cap,Wampus Cat Tee,Woodland Jones Cap\n"
+                            }
+                          ],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2024-03-19T14:17:17.586Z",
-                          "attachments": [
-                            {
-                              "name": "trace",
-                              "contentType": "application/zip",
-                              "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-productList-Products-List-Page-Sorting-Products-Alphabetical-Sort-A-Z-firefox/trace.zip"
-                            }
-                          ]
+                          "startTime": "2024-03-20T12:04:50.857Z",
+                          "attachments": []
                         }
                       ],
                       "status": "expected"
@@ -1064,28 +962,36 @@
                   "tags": [],
                   "tests": [
                     {
-                      "timeout": 180000,
-                      "annotations": [],
+                      "timeout": 360000,
+                      "annotations": [
+                        {
+                          "type": "slow"
+                        }
+                      ],
                       "expectedStatus": "passed",
                       "projectId": "firefox",
                       "projectName": "firefox",
                       "results": [
                         {
-                          "workerIndex": 6,
+                          "workerIndex": 7,
                           "status": "passed",
-                          "duration": 17836,
+                          "duration": 4265,
                           "errors": [],
-                          "stdout": [],
+                          "stdout": [
+                            {
+                              "text": "1 extract unsorted: ,18,18,28.5,29.5,28.5,22.49,39.5,39.98,34.49,39.98,14,24,29.5,12.5,28.5,24,24.5,24.5,24.5,39\n"
+                            },
+                            {
+                              "text": "2 code sorted: ,12.5,14,18,18,22.49,24,24,24.5,24.5,24.5,28.5,28.5,28.5,29.5,29.5,34.49,39,39.5,39.98,39.98\n"
+                            },
+                            {
+                              "text": "3 code sorted: ,12.5,14,18,18,22.49,24,24,24.5,24.5,24.5,28.5,28.5,28.5,29.5,29.5,34.49,39,39.5,39.98,39.98\n"
+                            }
+                          ],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2024-03-19T14:17:26.872Z",
-                          "attachments": [
-                            {
-                              "name": "trace",
-                              "contentType": "application/zip",
-                              "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-productList-Products-List-Page-Sorting-Products-Pricing-Sort-Low-to-High-firefox/trace.zip"
-                            }
-                          ]
+                          "startTime": "2024-03-20T12:04:55.727Z",
+                          "attachments": []
                         }
                       ],
                       "status": "expected"
@@ -1093,7 +999,7 @@
                   ],
                   "id": "41d62a95c758afad1be0-38a3953417e85e80ed2e",
                   "file": "specs/productList.spec.ts",
-                  "line": 39,
+                  "line": 54,
                   "column": 9
                 },
                 {
@@ -1102,28 +1008,36 @@
                   "tags": [],
                   "tests": [
                     {
-                      "timeout": 180000,
-                      "annotations": [],
+                      "timeout": 360000,
+                      "annotations": [
+                        {
+                          "type": "slow"
+                        }
+                      ],
                       "expectedStatus": "passed",
                       "projectId": "webkit",
                       "projectName": "webkit",
                       "results": [
                         {
-                          "workerIndex": 8,
+                          "workerIndex": 11,
                           "status": "passed",
-                          "duration": 16027,
+                          "duration": 4694,
                           "errors": [],
-                          "stdout": [],
+                          "stdout": [
+                            {
+                              "text": "1 extract unsorted: CCC Legacy Bandana,CCC Legacy Bandana Dungarees Blue,River Hound T-Shirt,Legendary McCloud T-Shirt,Arrowhead Canoe T-Shirt,Timber Jones Cap,Woodland Jones Cap,Red Plaid Jones Cap,Nailhead Canvas Jones Cap,Buffalo Check Jones Cap,Ozarks 1900 Bandana,Wampus Cat Tee,Smallmouth Bass 1900,Feathered Lure Bandanña,Realtree® Tractor Cap,Mollyjogger Vintage Logo,Pointer Shirt,Trail Cover™ Six Panel Cap,Trebark™ Six Panel Cap,McCloud Waxed Cap\n"
+                            },
+                            {
+                              "text": "2 code sorted: Arrowhead Canoe T-Shirt,Buffalo Check Jones Cap,CCC Legacy Bandana,CCC Legacy Bandana Dungarees Blue,Feathered Lure Bandanña,Legendary McCloud T-Shirt,McCloud Waxed Cap,Mollyjogger Vintage Logo,Nailhead Canvas Jones Cap,Ozarks 1900 Bandana,Pointer Shirt,Realtree® Tractor Cap,Red Plaid Jones Cap,River Hound T-Shirt,Smallmouth Bass 1900,Timber Jones Cap,Trail Cover™ Six Panel Cap,Trebark™ Six Panel Cap,Wampus Cat Tee,Woodland Jones Cap\n"
+                            },
+                            {
+                              "text": "3 extract websorted: Arrowhead Canoe T-Shirt,Buffalo Check Jones Cap,CCC Legacy Bandana,CCC Legacy Bandana Dungarees Blue,Feathered Lure Bandanña,Legendary McCloud T-Shirt,McCloud Waxed Cap,Mollyjogger Vintage Logo,Nailhead Canvas Jones Cap,Ozarks 1900 Bandana,Pointer Shirt,Realtree® Tractor Cap,Red Plaid Jones Cap,River Hound T-Shirt,Smallmouth Bass 1900,Timber Jones Cap,Trail Cover™ Six Panel Cap,Trebark™ Six Panel Cap,Wampus Cat Tee,Woodland Jones Cap\n"
+                            }
+                          ],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2024-03-19T14:17:51.245Z",
-                          "attachments": [
-                            {
-                              "name": "trace",
-                              "contentType": "application/zip",
-                              "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-productList-Products-List-Page-Sorting-Products-Alphabetical-Sort-A-Z-webkit/trace.zip"
-                            }
-                          ]
+                          "startTime": "2024-03-20T12:05:11.889Z",
+                          "attachments": []
                         }
                       ],
                       "status": "expected"
@@ -1140,8 +1054,12 @@
                   "tags": [],
                   "tests": [
                     {
-                      "timeout": 180000,
-                      "annotations": [],
+                      "timeout": 360000,
+                      "annotations": [
+                        {
+                          "type": "slow"
+                        }
+                      ],
                       "expectedStatus": "passed",
                       "projectId": "webkit",
                       "projectName": "webkit",
@@ -1149,19 +1067,23 @@
                         {
                           "workerIndex": 10,
                           "status": "passed",
-                          "duration": 14823,
+                          "duration": 4564,
                           "errors": [],
-                          "stdout": [],
+                          "stdout": [
+                            {
+                              "text": "1 extract unsorted: ,18,18,28.5,29.5,28.5,22.49,39.5,39.98,34.49,39.98,14,24,29.5,12.5,28.5,24,24.5,24.5,24.5,39\n"
+                            },
+                            {
+                              "text": "2 code sorted: ,12.5,14,18,18,22.49,24,24,24.5,24.5,24.5,28.5,28.5,28.5,29.5,29.5,34.49,39,39.5,39.98,39.98\n"
+                            },
+                            {
+                              "text": "3 code sorted: ,12.5,14,18,18,22.49,24,24,24.5,24.5,24.5,28.5,28.5,28.5,29.5,29.5,34.49,39,39.5,39.98,39.98\n"
+                            }
+                          ],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2024-03-19T14:17:58.966Z",
-                          "attachments": [
-                            {
-                              "name": "trace",
-                              "contentType": "application/zip",
-                              "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-productList-Products-List-Page-Sorting-Products-Pricing-Sort-Low-to-High-webkit/trace.zip"
-                            }
-                          ]
+                          "startTime": "2024-03-20T12:05:12.320Z",
+                          "attachments": []
                         }
                       ],
                       "status": "expected"
@@ -1169,7 +1091,7 @@
                   ],
                   "id": "41d62a95c758afad1be0-24b5d900b060bf29ae8f",
                   "file": "specs/productList.spec.ts",
-                  "line": 39,
+                  "line": 54,
                   "column": 9
                 }
               ]
@@ -1177,7 +1099,7 @@
             {
               "title": "Viewing Products",
               "file": "specs/productList.spec.ts",
-              "line": 66,
+              "line": 101,
               "column": 8,
               "specs": [
                 {
@@ -1186,7 +1108,39 @@
                   "tags": [],
                   "tests": [
                     {
-                      "timeout": 180000,
+                      "timeout": 120000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "status": "passed",
+                          "duration": 2867,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2024-03-20T12:04:39.575Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "41d62a95c758afad1be0-b9865c13478490350fa3",
+                  "file": "specs/productList.spec.ts",
+                  "line": 102,
+                  "column": 9
+                },
+                {
+                  "title": "Verify List View",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 120000,
                       "annotations": [],
                       "expectedStatus": "passed",
                       "projectId": "chromium",
@@ -1195,57 +1149,13 @@
                         {
                           "workerIndex": 0,
                           "status": "passed",
-                          "duration": 5144,
+                          "duration": 2849,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2024-03-19T14:16:52.395Z",
-                          "attachments": [
-                            {
-                              "name": "trace",
-                              "contentType": "application/zip",
-                              "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-productList-Products-List-Page-Viewing-Products-Verify-Icon-View-chromium/trace.zip"
-                            }
-                          ]
-                        }
-                      ],
-                      "status": "expected"
-                    }
-                  ],
-                  "id": "41d62a95c758afad1be0-b9865c13478490350fa3",
-                  "file": "specs/productList.spec.ts",
-                  "line": 67,
-                  "column": 9
-                },
-                {
-                  "title": "Verify List View",
-                  "ok": true,
-                  "tags": [],
-                  "tests": [
-                    {
-                      "timeout": 180000,
-                      "annotations": [],
-                      "expectedStatus": "passed",
-                      "projectId": "chromium",
-                      "projectName": "chromium",
-                      "results": [
-                        {
-                          "workerIndex": 1,
-                          "status": "passed",
-                          "duration": 4360,
-                          "errors": [],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 0,
-                          "startTime": "2024-03-19T14:16:53.037Z",
-                          "attachments": [
-                            {
-                              "name": "trace",
-                              "contentType": "application/zip",
-                              "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-productList-Products-List-Page-Viewing-Products-Verify-List-View-chromium/trace.zip"
-                            }
-                          ]
+                          "startTime": "2024-03-20T12:04:41.973Z",
+                          "attachments": []
                         }
                       ],
                       "status": "expected"
@@ -1253,7 +1163,7 @@
                   ],
                   "id": "41d62a95c758afad1be0-172432c2314d4b85a67a",
                   "file": "specs/productList.spec.ts",
-                  "line": 77,
+                  "line": 112,
                   "column": 9
                 },
                 {
@@ -1262,7 +1172,39 @@
                   "tags": [],
                   "tests": [
                     {
-                      "timeout": 180000,
+                      "timeout": 120000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "firefox",
+                      "projectName": "firefox",
+                      "results": [
+                        {
+                          "workerIndex": 6,
+                          "status": "passed",
+                          "duration": 5192,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2024-03-20T12:04:56.100Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "41d62a95c758afad1be0-4ca400b57dd1c52d1e38",
+                  "file": "specs/productList.spec.ts",
+                  "line": 102,
+                  "column": 9
+                },
+                {
+                  "title": "Verify List View",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 120000,
                       "annotations": [],
                       "expectedStatus": "passed",
                       "projectId": "firefox",
@@ -1271,57 +1213,13 @@
                         {
                           "workerIndex": 5,
                           "status": "passed",
-                          "duration": 4904,
+                          "duration": 3445,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2024-03-19T14:17:29.421Z",
-                          "attachments": [
-                            {
-                              "name": "trace",
-                              "contentType": "application/zip",
-                              "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-productList-Products-List-Page-Viewing-Products-Verify-Icon-View-firefox/trace.zip"
-                            }
-                          ]
-                        }
-                      ],
-                      "status": "expected"
-                    }
-                  ],
-                  "id": "41d62a95c758afad1be0-4ca400b57dd1c52d1e38",
-                  "file": "specs/productList.spec.ts",
-                  "line": 67,
-                  "column": 9
-                },
-                {
-                  "title": "Verify List View",
-                  "ok": true,
-                  "tags": [],
-                  "tests": [
-                    {
-                      "timeout": 180000,
-                      "annotations": [],
-                      "expectedStatus": "passed",
-                      "projectId": "firefox",
-                      "projectName": "firefox",
-                      "results": [
-                        {
-                          "workerIndex": 4,
-                          "status": "passed",
-                          "duration": 5766,
-                          "errors": [],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 0,
-                          "startTime": "2024-03-19T14:17:31.078Z",
-                          "attachments": [
-                            {
-                              "name": "trace",
-                              "contentType": "application/zip",
-                              "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-productList-Products-List-Page-Viewing-Products-Verify-List-View-firefox/trace.zip"
-                            }
-                          ]
+                          "startTime": "2024-03-20T12:04:56.606Z",
+                          "attachments": []
                         }
                       ],
                       "status": "expected"
@@ -1329,7 +1227,7 @@
                   ],
                   "id": "41d62a95c758afad1be0-49a7bf693b07394cefa1",
                   "file": "specs/productList.spec.ts",
-                  "line": 77,
+                  "line": 112,
                   "column": 9
                 },
                 {
@@ -1338,28 +1236,22 @@
                   "tags": [],
                   "tests": [
                     {
-                      "timeout": 180000,
+                      "timeout": 120000,
                       "annotations": [],
                       "expectedStatus": "passed",
                       "projectId": "webkit",
                       "projectName": "webkit",
                       "results": [
                         {
-                          "workerIndex": 9,
+                          "workerIndex": 8,
                           "status": "passed",
-                          "duration": 5106,
+                          "duration": 5311,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2024-03-19T14:18:02.322Z",
-                          "attachments": [
-                            {
-                              "name": "trace",
-                              "contentType": "application/zip",
-                              "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-productList-Products-List-Page-Viewing-Products-Verify-Icon-View-webkit/trace.zip"
-                            }
-                          ]
+                          "startTime": "2024-03-20T12:05:15.039Z",
+                          "attachments": []
                         }
                       ],
                       "status": "expected"
@@ -1367,7 +1259,7 @@
                   ],
                   "id": "41d62a95c758afad1be0-d9b8c67985ce6d614cf0",
                   "file": "specs/productList.spec.ts",
-                  "line": 67,
+                  "line": 102,
                   "column": 9
                 },
                 {
@@ -1376,7 +1268,7 @@
                   "tags": [],
                   "tests": [
                     {
-                      "timeout": 180000,
+                      "timeout": 120000,
                       "annotations": [],
                       "expectedStatus": "passed",
                       "projectId": "webkit",
@@ -1385,19 +1277,13 @@
                         {
                           "workerIndex": 11,
                           "status": "passed",
-                          "duration": 3149,
+                          "duration": 3632,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2024-03-19T14:18:07.742Z",
-                          "attachments": [
-                            {
-                              "name": "trace",
-                              "contentType": "application/zip",
-                              "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-productList-Products-List-Page-Viewing-Products-Verify-List-View-webkit/trace.zip"
-                            }
-                          ]
+                          "startTime": "2024-03-20T12:05:16.711Z",
+                          "attachments": []
                         }
                       ],
                       "status": "expected"
@@ -1405,7 +1291,7 @@
                   ],
                   "id": "41d62a95c758afad1be0-580ef850029e5e3a9321",
                   "file": "specs/productList.spec.ts",
-                  "line": 77,
+                  "line": 112,
                   "column": 9
                 }
               ]
@@ -1433,28 +1319,22 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 180000,
+                  "timeout": 120000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "chromium",
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 3,
+                      "workerIndex": 1,
                       "status": "passed",
-                      "duration": 3162,
+                      "duration": 2775,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-03-19T14:16:55.695Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-search-App-Menu-Verify-search-results-are-properly-displaying-chromium/trace.zip"
-                        }
-                      ]
+                      "startTime": "2024-03-20T12:04:42.203Z",
+                      "attachments": []
                     }
                   ],
                   "status": "expected"
@@ -1471,28 +1351,22 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 180000,
+                  "timeout": 120000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "firefox",
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 5,
+                      "workerIndex": 4,
                       "status": "passed",
-                      "duration": 4625,
+                      "duration": 13436,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-03-19T14:17:34.626Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-search-App-Menu-Verify-search-results-are-properly-displaying-firefox/trace.zip"
-                        }
-                      ]
+                      "startTime": "2024-03-20T12:04:57.828Z",
+                      "attachments": []
                     }
                   ],
                   "status": "expected"
@@ -1509,28 +1383,22 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 180000,
+                  "timeout": 120000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "webkit",
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 9,
+                      "workerIndex": 10,
                       "status": "passed",
-                      "duration": 3902,
+                      "duration": 3358,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-03-19T14:18:07.819Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "/Users/kerendianne/tech_exams/pw-mollyjogger/test-results/specs-search-App-Menu-Verify-search-results-are-properly-displaying-webkit/trace.zip"
-                        }
-                      ]
+                      "startTime": "2024-03-20T12:05:16.889Z",
+                      "attachments": []
                     }
                   ],
                   "status": "expected"
@@ -1548,8 +1416,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-03-19T14:16:23.525Z",
-    "duration": 110656.002,
+    "startTime": "2024-03-20T12:04:27.284Z",
+    "duration": 53084.968,
     "expected": 36,
     "skipped": 0,
     "unexpected": 0,
